@@ -1,0 +1,48 @@
+<html ng-app="myApp">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-cookies.js"></script>
+</head>
+<body>
+
+<header id="header">
+				<a class="logo" href="index.html">Industrious</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="#!Login">Login</a></li>
+					<li><a href="#!home">Home</a></li>
+					<li><a href="#!signin">Signin</a></li>
+				</ul>
+
+			</nav>
+			<div ng-view>
+
+</div>
+<section id="banner">
+				<div class="inner">
+					<h1>Industrious</h1>
+					<p>A responsive business oriented template with a video background<br />
+					designed by <a href="https://templated.co/">TEMPLATED</a> and released under the Creative Commons License.</p>
+				</div>
+				
+			</section>
+
+
+<script src="RouterConfig.js">
+
+</script>
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>
